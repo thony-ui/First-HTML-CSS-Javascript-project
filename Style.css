@@ -1,0 +1,144 @@
+body {background: url("https://thumbs.dreamstime.com/b/beach-sea-landscape-website-banner-design-62309280.jpg");
+text-align:center;
+transition: 200ms ease;}
+.intro {
+    font-family: 'Lobster';
+    color: rgb(255, 247, 247);
+    text-align:center;
+    font-size:48px;
+    animation-name: slide-right;
+    animation-duration: 3s;
+}
+
+@keyframes slide-right {
+
+    from {
+
+        margin-left: 100%;
+        
+        width: 300%;
+        
+        }
+        
+         
+        
+        to {
+        
+        margin-left: 0%;
+        
+        width: 100%;
+        
+        }
+        
+        }
+
+.ball {
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 50%;
+            background: linear-gradient(
+              35deg,
+              #ccffff,
+              #ffcccc
+            );
+            transition: transform 2s;
+            animation-name: bounce;
+            animation-duration: 1s;
+            animation-iteration-count: 3;
+          }
+.ball:hover{
+            background-color: #fff;
+            color: #333;
+            transform:translateY(280px);
+          }
+@keyframes bounce{
+            0% {
+              top: 0px;
+            }
+            50% {
+              top: 249px;
+              width: 130px;
+              height: 70px;
+            }
+            100% {
+              top: 0px;
+            }
+          }
+
+
+.searchbar {
+    animation-name: down;
+    animation-duration: 4s;
+}
+
+@keyframes down {
+          
+    from {
+
+        margin-top: 100%;
+        
+        width: 300%;
+        
+        }
+        
+         
+        
+        to {
+        
+        margin-top: 0%;
+        
+        width: 100%;
+        
+        }
+        
+        }
+            
+#label1 {
+                color: rgb(255, 247, 247);
+                font-family: 'Lobster';
+                font-size: 48px;
+            }
+
+.dropbtn{
+    height: 60px;
+    width: 160px;
+    font-family:'Lobster';
+    font-size:20px;
+    color:rgb(46, 44, 44);
+    padding: 16px;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #e1f3e2;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: rgb(8, 8, 8);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Lobster';
+}
+
+.dropdown-content a:hover {background-color: #8d8c8c}
+
+.show {display:block;}
+
+
+

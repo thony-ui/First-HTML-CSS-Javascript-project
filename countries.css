@@ -1,0 +1,106 @@
+body {
+    background: rgb(255, 247, 247);
+}
+.title {
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 60px;
+    animation-name: slide-in;
+    animation-duration: 3s;
+}
+@keyframes slide-in {
+    0% {
+        width: 300%;
+    }
+    50% {
+        width: 125%;
+    }
+    100% {
+        width:100%;
+    }
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-grow:0;
+    flex-shrink:0;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.item {
+    text-align: center;
+}
+#country {
+    font-size: 30px;
+    font-family:'Lobster';
+    text-align: center;
+    color:grey;
+}
+#content {
+    font-size:20px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+#content:hover {
+    color: red;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Lobster';
+    text-align: center;
+    animation-name: move-in;
+    animation-duration: 3s;
+}
+@keyframes move-in {
+    from {
+
+        margin-top: 100%;
+        
+        width: 300%;
+        
+        }
+        
+         
+        
+        to {
+        
+        margin-top: 0%;
+        
+        width: 100%;
+        
+        }
+        
+        }
+
+        .vl {
+            border-left: 5px solid grey;
+            height: 600px;
+            position: absolute;
+            left: 50%;
+            margin-left: -3px;
+            top: 180px;
+          }
+
+    .image {
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        width:250px;
+        height:250px;
+        justify-content:center;
+        animation-name: rotate;
+        animation-duration: 2s;
+        border-radius:50%;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(20deg);
+        }
+        100% {
+            transform: rotate(-20deg);
+        }
+    }
+/* add border-style: inset; to all images. Also makesure the images are of the same 
+add nature, culture, shopping, landmark*/

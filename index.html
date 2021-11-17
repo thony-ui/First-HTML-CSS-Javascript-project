@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+      <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+      <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+  </svg>
+</head>
+<body>
+    <div id = 'firstpage'>
+    <h1 class = 'intro' id = 'intro1' onclick = 'change()'><i class="fas fa-wordpress-simple"></i>Hello <br> Welcome to travelplanner!</h1>
+    <div class="ball"><i class="fas fa-lightbulb-exclamation"></i></div>
+    </div>
+    <section class = 'searchbar'>
+        <label for = 'continent' id = 'label1' style='font-size: 40px;' style='font-family:Lobster;'style="color: white;" onclick = 'color()'><i class="fas fa-wordpress-simple"></i>Where is your next travel destination?</label><br>
+        <div class="dropdown">
+            <button id="myBtn" class="dropbtn" onclick = 'continent()'><i class="fas fa-info-circle">Enter</i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="Europe.html">Europe</a>
+              <a href="Antartica.html">Antartica</a>
+              <a href="Asia.html">Asia</a>
+              <a href = 'North-america.html'>North-America</a>
+              <a href = 'South-america.html'>South-America</a>
+              <a href = 'Africa.html'>Africa</a>
+              <a href = 'oceania.html'>Oceania</a>
+            </div>
+          </div>
+    </section>
+    
+ 
+</body>
+</html>
