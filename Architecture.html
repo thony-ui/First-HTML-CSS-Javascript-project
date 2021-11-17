@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href = 'Architecture.css' rel = 'stylesheet'>
+    <script src = "Architecture.js"></script>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+        <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+        <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+    </svg>
+</head>
+<body>
+    <h1 id = 'title' onclick = 'where()'>Place of Interest?</h1>
+    <div class = 'flex'>
+        <div id = 'Museums'>
+            <h2>Museums</h2>
+            <a href = "https://www.louvre.fr/en">
+                <img src = 'https://cdn.pariscityvision.com/library/image/5449.jpg' alt = 'Picture of Mona Lisa' id = 'picture'> 
+            </a>
+            <p>Let's take a step <em>back and relax</em>.<br> Visit some of the museums in <br> Europe and be astonished by <br> the beauty of the displays.
+                <br><a href = Museums.html class = 'ref'>click to find out more</a>
+            </p>
+        </div>
+        <div id = 'skyscrapers'>
+            <h2>Skyscrapers</h2>
+            <a href = "https://www.the-shard.com">
+                <img src = 'https://images.unsplash.com/photo-1602522393332-44862c411a01?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGhlJTIwc2hhcmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60' alt = 'Picture of The Shard' id = 'picture'> 
+            </a>
+            <p>Be <strong>mesmerized</strong> by some of the <br>Tallest buildings in United <br>Kingdom. <br><a href = Skyscrapers.html class = 'ref'>click to find out more</a></p>
+        </div>
+        <div id = 'Theme parks'>
+            <h2>Attractions</h2>
+            <a href = "https://www.disneylandparis.com/en-us/">
+                <img src = 'https://i.insider.com/5e56e822a9f40c17ac6182d3?width=1300&format=jpeg&auto=webp' alt = 'Picture of Cinderella Castle' id = 'picture'> 
+            </a>
+            <p id = 'content3'>Heard of Paris Disneyland?<em> <br>The second largest Disneyland</em><br> in the world? There is a wide <br>variety of Theme Parks and <br>attractions in Europe to go to!
+                <br><a href = Attractions.html class = 'ref'>click to find out more</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

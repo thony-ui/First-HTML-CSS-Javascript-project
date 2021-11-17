@@ -1,0 +1,111 @@
+h1 {
+    text-align:center;
+    font-family: 'Lobster';
+    font-size:55px;
+    color:white;
+    animation-name:slide-in;
+    animation-duration:3s;
+}
+h1:hover {
+    color:brown;
+}
+
+@keyframes slide-in {
+    0% {
+        margin-left: 1000px;
+    }
+    50% {
+        margin-left:300px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+body {
+   background: url('https://www.designyourway.net/drb/wp-content/uploads/2015/05/Beach-Wallpaper-Desktop-Background-11.jpg');
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-grow:0;
+    flex-shrink:0;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    animation-name: slide-bottom;
+    animation-duration: 3s;
+}
+
+@keyframes slide-bottom {
+    0% {
+        margin-top: 300px;
+    }
+    50% {
+        margin-top:150px;
+    }
+    100% {
+        margin-top:0px;
+    }
+}
+
+.accomodation {
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 1px 1px 1px beige;
+    border-style:solid;
+    border-width: 3px;
+    border-color:beige;
+    text-align:center;
+}
+
+.transport {
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 1px 1px 1px beige;
+    border-style:solid;
+    border-width: 3px;
+    border-color:beige;
+    text-align:center;
+}
+
+.restaurants {
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 1px 1px 1px beige;
+    border-style:solid;
+    border-width: 3px;
+    border-color:beige;
+    text-align:center;
+}
+h2 {
+    text-align: center;
+    font-family:'Lobster';
+    font-size: 35px;
+    color:beige;
+}
+h2:hover {
+    color:brown;
+}
+a:hover {
+    color:brown;
+}
+p {
+    font-family: 'Roboto';
+    font-size: 23px;
+    color: beige;
+}
+p:hover{
+    color:brown;
+}
+#reference {
+    font-family: 'Lobster';
+    font-size: 23px;
+    color: brown;
+}
+#image {
+    border-radius: 50%;
+    border-width:2px;
+    width:200px;
+    height:200px;
+    justify-content: center;
+}
